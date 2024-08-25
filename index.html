@@ -1,0 +1,128 @@
+<html>
+<head>
+<body background="html/bg.jpg" 
+style="background-size:cover; 
+       background-repeat:no-repeat; 
+       background-position:center; 
+       background-attachment:fixed">
+
+<div style="text-align:center; 
+            margin-top:40px;">
+<img id="myImage" 
+            style="width:240px; 
+            height:240px; 
+            border-radius:50%; 
+            object-fit:cover;" 
+            src="html/logo.png" 
+            alt="Circular Image" 
+            class="circular-image" 
+            onclick="changeImage()">
+<script>
+        function changeImage() 
+        {
+        var image=
+        document.getElementById('myImage');
+        if(image.src.match("html/logo")) 
+          {
+           image.src="html/logo1.png"; 
+          }
+        else 
+           {
+            image.src="html/logo.png"; 
+           }
+        }
+</script>
+<script>
+        function changeImage() 
+        {
+        var image=
+        document.getElementById('myImage');
+        if(image.src.match("html/logo1")) 
+          {
+           image.src="html/logo.png"; 
+          }
+        else 
+           {
+            image.src="html/logo1.png"; 
+           }
+        }
+</script>
+</div>
+
+<div style="text-align:center; margin-top:40px;">
+
+<h1 style="font-size:80px; 
+           text-align:center;">
+hijack
+</h1>
+
+<style>
+       .button{
+              font-size:20px; 
+              border-radius: 20px; 
+              padding: 10px 20px; 
+              width:100px; 
+              height:30px; 
+              color: blue;  
+              border:2px solid blue; 
+              background-color: transparent; 
+              text-decoration:none; 
+              display:inline-block;
+              }
+</style>
+<a class="button" style="padding-right:20px;" href="#">home</a>
+<a class="button" style="padding-right:20px;" href="#">about</a>
+<a class="button" style="padding-right:20px;" href="#">services</a>
+</div>
+
+<h2 style="font-size:40px; 
+           text-align:center;">
+okayy
+</h2>
+
+<p style="line-height:30px; 
+          text-align:center;">
+alright 
+<br> 
+now 
+<br> 
+wake up
+</p>
+
+<hr>
+
+<style>
+      .button {
+              font-size:20px; 
+              border-radius: 20px; 
+              padding: 10px 20px; 
+              width:100px; 
+              height:30px; 
+              color: blue;  
+              border:2px solid blue; 
+              background-color: transparent; 
+              text-decoration:none; 
+              display:inline-block; 
+              transition: background-color 0.3s ease;
+              } 
+
+       .button:hover { 
+                     background-color:blue; 
+                     color:white;"
+                     }
+</style>
+<div style="text-align:center;">
+<a class="button" href="html/video.html"> 
+Shenanigans
+</a>
+</div>
+<hr style="width:60%;">
+
+<h1 style="font-size:60px; text-align:center">autopilot</h1>
+
+<img style="width:33%; height:50%;" src="html/img3.jpeg">
+<img style="width:33%; height:50%;" src="html/img1.jpeg">
+<img style="width:33%; height:50%;" src="html/img2.jpeg">
+
+</body>
+</html>
